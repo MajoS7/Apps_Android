@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica Controles Basicos</string>
+    <string name="title">Nuevo Contacto</string>
+    <string name="sub_title">Genero</string>
+    <string name="topics">Seleccione sus temas de interes</string>
+    <string name="summary">ver resumen antes de guardar?</string>
+</resources>
