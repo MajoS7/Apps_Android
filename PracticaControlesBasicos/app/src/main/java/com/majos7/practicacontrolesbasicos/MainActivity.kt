@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
         else{
             Toast.makeText(this,"Contacto Almacenado",Toast.LENGTH_LONG).show()
         }
-
     }
 
 
