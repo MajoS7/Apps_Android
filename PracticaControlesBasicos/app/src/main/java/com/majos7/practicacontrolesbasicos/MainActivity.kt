@@ -1,5 +1,6 @@
 package com.majos7.practicacontrolesbasicos
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
@@ -50,12 +51,21 @@ class MainActivity : AppCompatActivity() {
 
 
         val rsave:ToggleButton=findViewById(R.id.tbSave)
+        var mensajes:String=""
+
+        val intent=Intent(this,ActivtyMensaje::class.java)
+        val miBundle:Bundle= Bundle()
+
         if(rsave.text.toString()=="Si"){
-            Toast.makeText(this,"Nombre: $nameLastnametx\nTelefono Celular: $phonetx\nCorreo electronico: $emailtx\nGenero: $gender\nTemas de Interes: $topicsInterest",Toast.LENGTH_LONG).show()
+            mensajes="Nombre: $nameLastnametx\nTelefono Celular: $phonetx\nCorreo electronico: $emailtx\nGenero: $gender\nTemas de Interes: $topicsInterest";
+            miBundle.putString("Datos",mensajes)
         }
         else{
-            Toast.makeText(this,"Contacto Almacenado",Toast.LENGTH_LONG).show()
+            mensajes="Contacto Almacenado"
+            miBundle.putString("Datos",mensajes)
         }
+        intent.putExtras(miBundle)
+        startActivity(intent)
     }
 
 
