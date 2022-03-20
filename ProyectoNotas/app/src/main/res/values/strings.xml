@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProyectoNotas</string>
+    <string name="btn_ayuda">Ayuda</string>
+    <string name="btn_registro">Promedio Estudiante</string>
+    <string name="btn_estadistica">Estadistica</string>
+
+</resources>
