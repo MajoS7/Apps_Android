@@ -10,17 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoNotas">
         <activity
-            android:name=".Splash_Screen"
+            android:name=".InformationStudent"
             android:exported="false" />
         <activity
-            android:name=".Welcome"
+            android:name=".BasicData"
             android:exported="false" />
         <activity
-            android:name=".Average_Student"
+            android:name=".AverageStudent"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".StudentStatistics"
+            android:exported="false" />
+        <activity
+            android:name=".Help"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

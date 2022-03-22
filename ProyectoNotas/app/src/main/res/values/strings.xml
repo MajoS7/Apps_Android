@@ -1,7 +1,28 @@
 <resources>
-    <string name="app_name">ProyectoNotas</string>
-    <string name="btn_ayuda">Ayuda</string>
-    <string name="btn_registro">Promedio Estudiante</string>
-    <string name="btn_estadistica">Estadistica</string>
-
+    <string name="app_name">Mis Pequeños Saltamontes</string>
+    <string name="btn_help">Ayuda</string>
+    <string name="btn_registration">Registrar estudiante</string>
+    <string name="btn_statistics">Estadistica</string>
+    <string name="btn_following">Siguiente</string>
+    <string name="btn_add">Agregar</string>
+    <string name="btn_average">Promediar</string>
+    <string name="btn_close">Salir</string>
+    <string name="title_basic_data">Datos basicos</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_document">Documento</string>
+    <string name="txt_age">Edad</string>
+    <string name="txt_phone">Telefono</string>
+    <string name="txt_address">Dirección</string>
+    <string name="title_subject">Registrar Materia</string>
+    <string name="title_subject2">Materias</string>
+    <string name="txt_grade">Nota</string>
+    <string name="txt_information">Información</string>
+    <string name="txt_average">Promedio</string>
+    <string name="txt_status">Estado</string>
+    <string name="title_statistics">Estadisticas de los Estudiantes</string>
+    <string name="txt_number_logged">Registrados</string>
+    <string name="txt_number_winners">Ganaron</string>
+    <string name="txt_number_lost">Perdieron</string>
+    <string name="txt_number_recovery">Pueden Recuperar</string>
+    <string name="title_information_student">Información del Estudiante</string>
 </resources>

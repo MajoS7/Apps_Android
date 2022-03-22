@@ -1,11 +1,11 @@
-package com.majos7.proyectonotas
+package com.majos7.scroll
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Welcome : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome)
+        setContentView(R.layout.activity_main)
     }
 }
