@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoNotas">
         <activity
-            android:name=".RegisterStudent"
+            android:name=".InformationStudent"
             android:exported="false" />
         <activity
-            android:name=".InformationStudent"
+            android:name=".BasicData"
+            android:exported="false" />
+        <activity
+            android:name=".AverageStudent"
             android:exported="false" />
         <activity
             android:name=".StudentStatistics"

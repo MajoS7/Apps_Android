@@ -28,14 +28,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="horizontal">
-            <EditText
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:hint="@string/txt_name"
-                android:layout_marginRight="20dp"/>
 
             <EditText
+                android:id="@+id/txt_name_subject"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/txt_name" />
+
+            <EditText
+                android:id="@+id/txt_grade"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
@@ -65,13 +68,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
+
         <TextView
+            android:id="@+id/tvwSubjectsGrades"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Español: 2.0\nMatematicas: 3.0"
             android:padding="10dp"
             android:textColor="@color/black"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
 
     </ScrollView>
     <Button

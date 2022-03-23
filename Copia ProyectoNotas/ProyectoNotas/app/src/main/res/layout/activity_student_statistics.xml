@@ -33,13 +33,12 @@
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
-
             <TextView
-                android:id="@+id/txtRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:text="20"/>
 
 
         </LinearLayout>
@@ -54,13 +53,12 @@
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
-
             <TextView
-                android:id="@+id/txtWinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:text="30"/>
 
 
         </LinearLayout>
@@ -75,13 +73,12 @@
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
-
             <TextView
-                android:id="@+id/txtLost"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:text="17"/>
 
 
         </LinearLayout>
@@ -95,13 +92,12 @@
                 android:textSize="20sp"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
-
             <TextView
-                android:id="@+id/txtRecover"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:text="4"/>
 
 
         </LinearLayout>

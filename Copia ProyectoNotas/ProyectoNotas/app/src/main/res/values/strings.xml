@@ -4,6 +4,8 @@
     <string name="btn_registration">Registrar estudiante</string>
     <string name="btn_statistics">Estadistica</string>
     <string name="btn_following">Siguiente</string>
+    <string name="btn_add">Agregar</string>
+    <string name="btn_average">Promediar</string>
     <string name="btn_close">Salir</string>
     <string name="title_basic_data">Datos basicos</string>
     <string name="txt_name">Nombre</string>
@@ -11,7 +13,7 @@
     <string name="txt_age">Edad</string>
     <string name="txt_phone">Telefono</string>
     <string name="txt_address">Dirección</string>
-    <string name="subject">Materia</string>
+    <string name="title_subject">Registrar Materia</string>
     <string name="title_subject2">Materias</string>
     <string name="txt_grade">Nota</string>
     <string name="txt_information">Información</string>

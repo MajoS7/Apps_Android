@@ -27,30 +27,35 @@
 
 
         <EditText
+            android:id="@+id/txt_document"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:hint="@string/txt_document" />
 
         <EditText
+            android:id="@+id/txt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:hint="@string/txt_name" />
 
         <EditText
+            android:id="@+id/txt_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:hint="@string/txt_age" />
 
         <EditText
+            android:id="@+id/txt_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:hint="@string/txt_phone" />
 
         <EditText
+            android:id="@+id/txt_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"

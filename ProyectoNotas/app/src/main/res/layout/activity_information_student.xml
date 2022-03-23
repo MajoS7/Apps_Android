@@ -18,13 +18,13 @@
         android:textAlignment="center"/>
 
     <TextView
+        android:id="@+id/txtNameIE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Maria Jose Ospina Hurtado"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
         android:textAlignment="center"
-        android:layout_marginBottom="20dp"/>
+        android:textColor="@color/black"
+        android:textSize="20sp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,41 +34,137 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:textAlignment="center"/>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Español: 2.0\nMatematicas: 3.0"
-            android:padding="10dp"
-            android:textColor="@color/black"
-            android:textSize="16sp"/>
 
-    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_weight="2">
+        android:layout_weight="1">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp">
+
             <TextView
-                android:layout_width="100dp"
+                android:id="@+id/txtSubjectIE1"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_average"
-                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:textStyle="bold"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:id="@+id/txtGradeEI1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="20"/>
+                android:textSize="20sp" />
+
+
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/txtSubjectIE2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGradeEI2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/txtSubjectIE3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGradeEI3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/txtSubjectIE4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGradeEI4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/txtSubjectIE5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGradeEI5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_average"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAverageIE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
 
         </LinearLayout>
@@ -76,19 +172,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp">
+
             <TextView
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_status"
-                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:textStyle="bold"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
+                android:id="@+id/txtStatusIE"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="30"/>
+                android:textSize="20sp" />
 
 
         </LinearLayout>

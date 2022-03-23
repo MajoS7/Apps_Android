@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     private fun onclick(boton:Int){
         when (boton){
             1->{
-                val intent=Intent(this,RegisterStudent::class.java)
+                val intent=Intent(this,BasicData::class.java)
                 startActivity(intent)
             }
             2->{
