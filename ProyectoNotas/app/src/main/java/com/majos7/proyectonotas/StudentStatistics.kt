@@ -33,11 +33,11 @@ class StudentStatistics : AppCompatActivity() {
         showData()
     }
     private fun showData(){
-        Log.i("PRUEBA", operations!!.numberStudents().toString())
-        //registerfield!!.text = operations!!.numberStudents().toString()
-        //winnersfield!!.text = operations!!.statusNumberStudents("Gano").toString()
-        //lostsfield!!.text = operations!!.statusNumberStudents("Perdio, no tiene posibilidad de recuperar").toString()
-        //recoverfield!!.text = operations!!.statusNumberStudents("Puede Recuperar").toString()
+        registerfield!!.text = operations!!.numberStudents().toString()
+        winnersfield!!.text = operations!!.statusNumberStudents("Gano").toString()
+        var lostsTotal=operations!!.statusNumberStudents("Perdio, no tiene posibilidad de recuperar")+operations!!.statusNumberStudents("Puede Recuperar")
+        lostsfield!!.text = lostsTotal.toString()
+        recoverfield!!.text = operations!!.statusNumberStudents("Puede Recuperar").toString()
     }
 
 

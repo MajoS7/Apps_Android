@@ -62,38 +62,36 @@ class RegisterStudent : AppCompatActivity() {
     private fun studentRegister(){
         var DS:DataStudent=DataStudent()
 
-        DS.document = documentfield?.text.toString()
-        DS.name = namefield?.text.toString()
-        DS.age = agefield?.text.toString().toInt()
-        DS.address = addressfield?.text.toString()
-        DS.phone = phonefield?.text.toString()
-        DS.subject1 = suject1field?.text.toString()
-        DS.subject2 = suject2field?.text.toString()
-        DS.subject3 = suject3field?.text.toString()
-        DS.subject4 = suject4field?.text.toString()
-        DS.subject5 = suject5field?.text.toString()
-        DS.grade1 = grade1field?.text.toString().toDouble()
-        DS.grade2 = grade2field?.text.toString().toDouble()
-        DS.grade3 = grade3field?.text.toString().toDouble()
-        DS.grade4 = grade4field?.text.toString().toDouble()
-        DS.grade5 = grade5field?.text.toString().toDouble()
-        DS.average = operations!!.calculateAverage(DS)
-        DS.status=operations!!.statusStudent(DS)
-
-
-        if (operations?.validatorgrades(DS)===true){
-            operations?.registerStudents(DS)
-            sendObjectActivity(DS)
-        }
+       if(documentfield?.text.toString()=="" || namefield?.text.toString()=="" || agefield?.text.toString()=="" || addressfield?.text.toString()=="" || phonefield?.text.toString()=="" || suject1field?.text.toString()=="" || suject2field?.text.toString()=="" || suject3field?.text.toString()=="" || suject4field?.text.toString()=="" || suject5field?.text.toString()=="" || grade1field?.text.toString()=="" || grade2field?.text.toString()=="" || grade3field?.text.toString()=="" || grade4field?.text.toString()=="" || grade5field?.text.toString()=="" ){
+            Toast.makeText(this,"Por favor rellene todos los campos",Toast.LENGTH_LONG).show()
+       }
         else{
-            Toast.makeText(this, "Por favor solo ingrese numeros del 0 al 5", Toast.LENGTH_SHORT).show()
-        }
+           DS.document = documentfield?.text.toString()
+           DS.name = namefield?.text.toString()
+           DS.age = agefield?.text.toString().toInt()
+           DS.address = addressfield?.text.toString()
+           DS.phone = phonefield?.text.toString()
+           DS.subject1 = suject1field?.text.toString()
+           DS.subject2 = suject2field?.text.toString()
+           DS.subject3 = suject3field?.text.toString()
+           DS.subject4 = suject4field?.text.toString()
+           DS.subject5 = suject5field?.text.toString()
+           DS.grade1 = grade1field?.text.toString().toDouble()
+           DS.grade2 = grade2field?.text.toString().toDouble()
+           DS.grade3 = grade3field?.text.toString().toDouble()
+           DS.grade4 = grade4field?.text.toString().toDouble()
+           DS.grade5 = grade5field?.text.toString().toDouble()
+           DS.average = operations!!.calculateAverage(DS)
+           DS.status=operations!!.statusStudent(DS)
 
-
-
-        operations?.imprimirListaEstudiantes()
-
-
+           if (operations?.validatorgrades(DS)===true){
+               operations?.registerStudents(DS)
+               sendObjectActivity(DS)
+           }
+           else{
+               Toast.makeText(this, "Por favor solo ingrese numeros del 0 al 5", Toast.LENGTH_SHORT).show()
+           }
+       }
     }
 
     private fun sendObjectActivity(DS:DataStudent){
